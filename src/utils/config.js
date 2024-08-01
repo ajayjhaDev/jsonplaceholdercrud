@@ -1,5 +1,5 @@
 const api = {
-  productsUrl: "https://fakestoreapi.com/products",
+  productsUrl: "url",
 };
 
 export default api;
