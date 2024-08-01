@@ -1,3 +1,3 @@
-import { atom } from "jotai";
+import { atomWithStorage } from "jotai/utils";
 
-export const editDataAtom = atom(null);
+export const editDataAtom = atomWithStorage("editData", null);
