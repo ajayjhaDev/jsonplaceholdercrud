@@ -1,6 +1,6 @@
 import App from "./App";
-import Route1 from "./pages/route1/Index";
-import Route2 from "./pages/route2/Index";
+import AddTodo from "./pages/AddTodo/Index";
+import EditTodo from "./pages/EditTodo/Index";
 
 const routes = [
   {
@@ -8,12 +8,12 @@ const routes = [
     element: <App />,
   },
   {
-    path: "/route1",
-    element: <Route1 />,
+    path: "/add",
+    element: <AddTodo />,
   },
   {
-    path: "/route2",
-    element: <Route2 />,
+    path: "/edit",
+    element: <EditTodo />,
   },
 ];
 
