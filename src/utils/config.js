@@ -1,5 +1,5 @@
 const api = {
-  productsUrl: "url",
+  apiUrl: "https://jsonplaceholder.typicode.com/users",
 };
 
 export default api;
