@@ -1,14 +1,12 @@
+// src/App.js
 import React from "react";
-import { Container } from "@mui/material";
-import DynamicTable from "./components/DynamicTable";
-import "react-toastify/dist/ReactToastify.css";
+import PostList from "./components/PostList";
 
 function App() {
   return (
-    <Container>
-      <h1>Enhanced Dynamic Table View</h1>
-      <DynamicTable />
-    </Container>
+    <div className="App">
+      <PostList />
+    </div>
   );
 }
 
